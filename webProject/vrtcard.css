@@ -1,13 +1,23 @@
 .profilePic{
     display: block;
-    width: 10x;
-    height: 10px;
+
+}
+.home{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: grey;
+    display: block;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
-.Home{
-    display: flex;
-}
 .info{
     display: block;
+    margin-top: 0px;
+    line-height: 1px;
+}
+p{
+    margin-top: 10px;
 }
