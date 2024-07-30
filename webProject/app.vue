@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Virtual Calling Card
+        </title>
+        <link rel="stylesheet" href="vrtcard.css">
+    </head>
+    <body>
+
+            <div class="profilePic">
+                <img src="/webProject/resources/images/employee profile/lloydprofile.jpg"> 
+            </div>
+            <div class="info">  
+                <h3>Lloyd Arwin Jhon Poblete</h3>
+                <h4>Technical Trainer</h4>
+                <h4>Hyundai Binan Laguna</h4>
+                <p>Mobile: 09569848751</p>
+                <p>Email: trainer.arezamotor@gmail.com</p>
+            </div>
+    </body>
+    <!-- <footer>
+        <nav>
+            <ul>
+                <li><a href="profile">PROFILE</a></li>
+                <li><a href="social">SOCIAL</a></li>
+                <li><a href="company">COMPANY</a></li>
+            </ul>
+        </nav>
+    </footer> -->
+</html>
