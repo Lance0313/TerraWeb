@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Virtual Calling Card
+        </title>
+        <link rel="stylesheet" href="vrtcard.css">
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+    <body id="body">
+        <div class="home">
+            <div class="profilePic">
+                <img :src="profilePic"> 
+                <div class="companyName">
+                    <h1>{{employeeCompany}}</h1>
+                </div>
+                <img :src="companyPic">
+            </div>
+            <div class="info">  
+                <h3>{{employeeName}}</h3>
+                <h4>{{employeeRole}}</h4>
+                <h4>{{employeeCompany}}</h4>
+                <p>Mobile: {{employeeMobile}}</p>
+                <p>Email: {{employeeEmail}}</p>
+            </div>
+        </div>
+    </body>
+    <!-- <footer>
+        <nav>
+            <ul>
+                <li><a href="profile">PROFILE</a></li>
+                <li><a href="social">SOCIAL</a></li>
+                <li><a href="company">COMPANY</a></li>
+            </ul>
+        </nav>
+    </footer> -->
+    <script src="app.js"></script>
+    </html>
