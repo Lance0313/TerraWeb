@@ -13,7 +13,9 @@ Vue.createApp({
         };
     },
     methods:{
-
+        goToProfile(){
+            
+        }
     }
 
 }).mount('#body');
